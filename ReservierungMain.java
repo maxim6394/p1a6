@@ -3,16 +3,16 @@ import java.util.*;
 
 /*
 ----------------------------
-|	Reservierung			|
+|	Reservierung		|
 ----------------------------
-|sitze[] 					|
+|sitze[]			|
 |anzahlreserviertesitze		|
 ----------------------------
-|initialisieren()			|
-|istFrei()					|	
-|reservieren()				|
-|drucken() 					|
-|getAnzahlReservierteSitze()|
+|initialisieren()		|
+|istFrei()			|	
+|reservieren()			|
+|drucken() 			|
+|getAnzahlReservierteSitze()	|
 |getAnzahlFreieSitze()		|
 ----------------------------
 */
