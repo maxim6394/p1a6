@@ -86,8 +86,14 @@ class Reservierung
 	public int getAnzahlFreieSitze()
 	{
 		int i = 0;
-		for(String str : sitze)
-			i+= str.equals("frei")?1:0;
+		for(int h = 0; h<sitze.length; h++))
+			{
+				String str = sitze[h];
+				
+				if(str.equals("frei"))
+					i++;
+				//i+= str.equals("frei")?1:0;
+			}
 		return i;
 	}
 
